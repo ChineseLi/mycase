@@ -1,0 +1,242 @@
+@charset "UTF-8";
+.public, #stick .stick-con, #top .top-con, .search {
+  width: 1190px;
+  margin: 0 auto; }
+
+/*置顶活动页面*/
+#stick {
+  height: 60px;
+  background: #ee3d5a; }
+  #stick .stick-con {
+    height: 60px;
+    position: relative; }
+    #stick .stick-con img {
+      width: 1190px;
+      height: 60px; }
+    #stick .stick-con span {
+      color: #fff;
+      font-size: 12px;
+      line-height: 18px;
+      position: absolute;
+      right: 37px;
+      top: 0;
+      cursor: pointer; }
+
+/*顶层功能栏*/
+#top {
+  height: 35px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #eee; }
+  #top .top-con {
+    height: 35px;
+    background: #fr5; }
+    #top .top-con .top-conLeft {
+      float: left;
+      width: 532px;
+      height: 35px;
+      line-height: 35px;
+      font-size: 12px; }
+      #top .top-con .top-conLeft .navConA {
+        float: left;
+        color: #999;
+        line-height: 35px; }
+        #top .top-con .top-conLeft .navConA > span {
+          float: left;
+          display: block;
+          width: 15px;
+          height: 35px;
+          margin-right: 5px;
+          background-image: url("../images/icon_index.png");
+          background-position-x: 0;
+          background-position-y: 11px; }
+      #top .top-con .top-conLeft .logA {
+        float: left;
+        color: #999;
+        line-height: 35px;
+        margin: 0 9px; }
+      #top .top-con .top-conLeft .regA {
+        float: left;
+        color: red;
+        line-height: 35px; }
+      #top .top-con .top-conLeft p:nth-of-type(1) {
+        float: left;
+        margin-left: 16px;
+        margin-right: 5px;
+        color: #999;
+        line-height: 35px; }
+      #top .top-con .top-conLeft p:nth-of-type(2) {
+        width: 92px;
+        height: 35px;
+        float: left;
+        margin-right: 16px; }
+        #top .top-con .top-conLeft p:nth-of-type(2) .lg1 {
+          float: left;
+          background-image: url("../images/icon_index.png");
+          background-position: -378px 10px;
+          width: 20px;
+          height: 36px; }
+        #top .top-con .top-conLeft p:nth-of-type(2) .lg2 {
+          float: left;
+          background-image: url("../images/icon_index.png");
+          background-position: -412px 10px;
+          width: 20px;
+          height: 36px;
+          margin: 0 3px; }
+        #top .top-con .top-conLeft p:nth-of-type(2) .lg3 {
+          float: left;
+          background-image: url("../images/icon_index.png");
+          background-position: -449px 10px;
+          width: 20px;
+          height: 36px; }
+        #top .top-con .top-conLeft p:nth-of-type(2) .lg4 {
+          float: left;
+          background-image: url("../images/icon_index.png");
+          background-position: -485px 10px;
+          width: 20px;
+          height: 36px;
+          margin: 0 3px; }
+      #top .top-con .top-conLeft p:nth-of-type(3) {
+        color: #999; }
+    #top .top-con .top-conRight {
+      float: left;
+      width: 396px;
+      height: 35px;
+      margin-left: 262px;
+      font-size: 12px;
+      line-height: 35px; }
+      #top .top-con .top-conRight .con1 {
+        display: inline-block;
+        height: 35px;
+        padding: 0 10px; }
+        #top .top-con .top-conRight .con1 .rightA1 {
+          color: #999; }
+          #top .top-con .top-conRight .con1 .rightA1 i {
+            float: right;
+            display: block;
+            width: 10px;
+            height: 20px;
+            background: url(../images/icon_index.png);
+            background-position: -89px 0;
+            margin: 7px 0 0 5px; }
+      #top .top-con .top-conRight .con2 {
+        display: inline-block;
+        width: 85px;
+        height: 35px; }
+        #top .top-con .top-conRight .con2 .rightA2 {
+          color: #999; }
+          #top .top-con .top-conRight .con2 .rightA2 i {
+            float: left;
+            display: block;
+            width: 10px;
+            height: 20px;
+            background: url(../images/icon_index.png);
+            background-position: -66px -21px;
+            margin: 7px 5px 0 5px; }
+      #top .top-con .top-conRight .con3 {
+        display: inline-block;
+        width: 85px;
+        height: 35px; }
+        #top .top-con .top-conRight .con3 .rightA3 {
+          color: #999;
+          padding-left: 5px; }
+      #top .top-con .top-conRight .con4 {
+        display: inline-block;
+        width: 95px;
+        height: 35px; }
+        #top .top-con .top-conRight .con4 .rightA4 {
+          color: #999; }
+          #top .top-con .top-conRight .con4 .rightA4 i {
+            float: left;
+            display: block;
+            width: 12px;
+            height: 20px;
+            background: url(../images/icon_index.png);
+            background-position: -24px 0;
+            margin: 10px 5px 0 5px; }
+
+/*搜索栏*/
+.search {
+  height: 124px; }
+  .search h1 {
+    float: left;
+    width: 300px;
+    height: 120px; }
+  .search .search-con {
+    float: left;
+    width: 635px;
+    height: 84px;
+    margin-left: 55px;
+    padding-top: 36px; }
+    .search .search-con .search-txt {
+      float: left;
+      width: 389px;
+      height: 35px;
+      border: 2px solid #cb1e00;
+      padding-left: 11px;
+      color: #b8b8b8; }
+    .search .search-con .search-btn {
+      float: left;
+      width: 90px;
+      height: 39px;
+      background: #cb1e00;
+      border: none;
+      color: #fff; }
+    .search .search-con .search-btn + p {
+      float: left;
+      font-size: 12px;
+      line-height: 19px; }
+      .search .search-con .search-btn + p i:first-child {
+        color: #9a9a9a; }
+      .search .search-con .search-btn + p > a {
+        padding: 0 4px;
+        color: #9a9a9a; }
+      .search .search-con .search-btn + p .redtxt {
+        color: red; }
+  .search .search-conRight {
+    float: left;
+    width: 200px;
+    margin-top: 15px; }
+    .search .search-conRight img {
+      width: 200px;
+      height: 90px; }
+
+/*nav导航条*/
+.nav-con {
+  width: 1190px;
+  height: 36px;
+  margin: 0 auto; }
+  .nav-con .nav-conLeft {
+    float: left;
+    width: 180px;
+    height: 36px;
+    background: #CB351A; }
+    .nav-con .nav-conLeft > span {
+      display: block;
+      font-size: 15px;
+      line-height: 36px;
+      color: #fff;
+      text-align: center; }
+  .nav-con .nav-conright {
+    float: left;
+    width: 650px;
+    height: 36px; }
+    .nav-con .nav-conright li {
+      float: left; }
+      .nav-con .nav-conright li a {
+        padding: 0 12px;
+        font-size: 16px;
+        color: #666;
+        line-height: 36px; }
+        .nav-con .nav-conright li a:hover {
+          color: red; }
+  .nav-con .nav-cart {
+    float: right;
+    width: 198px;
+    height: 34px;
+    background: #f9f9f9;
+    border: 1px solid #e4e4e4; }
+    .nav-con .nav-cart a {
+      display: block;
+      color: #7a7a7a;
+      text-align: center;
+      line-height: 34px; }
